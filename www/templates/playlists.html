@@ -1,0 +1,10 @@
+<ion-view view-title="West Valley Fire">
+	<ion-content>
+		<div class="list">
+			<a ng-repeat="navItem in navItems" class="item item-icon-left" href="{{navItem.url}}">
+				<i class="icon {{navItem.icon}}"></i>
+				{{navItem.title}}
+			</a>
+		</div>
+	</ion-content>
+</ion-view>
